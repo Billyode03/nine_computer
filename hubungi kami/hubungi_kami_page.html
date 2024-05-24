@@ -14,9 +14,12 @@
             display: flex;
             align-items: center;
             margin: 20px;
+            padding-bottom: 100px;
+            padding-top: 20px;
         }
 
         .hero2 {
+            padding-left: 150px;
             align-items: center;
             margin: 20px;
         }
@@ -25,20 +28,12 @@
             width: 700px;
             margin-right: 50px;
         }
-
-        .hero-text-one{
-            margin-left: 150px;
-            margin-top: 10px;
-        }
-
-       
-
     </style>
 </head>
 
 <body>
-      <!-- Bar Home -->
-      <nav class="navbar navbar-expand-lg navbar-light ">
+       <!-- Bar Home -->
+       <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid">
             <h1 class="navbar-brand">
                 <a class="h1_anchor" href="../landing_page/landing_page.html">
@@ -89,20 +84,28 @@
 
 
 
+
     <div class="hero">
-        <img src="../assets/intro.png" alt="">
+        <img src="../assets/contact_two.jpg" alt="">
         <div class="hero2">
-            <h1> Selamat Datang di Nine Computer </h1>
-            <p class="hero-text-one"> Kualitas terjamin, Harga gak nyiksa dompet</p>
+            <h1> Hubungi Kami </h1>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Alamat Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Masukkan Email">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Masukkan Saran</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
             <button class="btn-landing">
-                <a class="text-btn-landing" href="../beranda/beranda_page.html">Mulai</a>
+                <a class="text-btn-landing" href="">Kirim</a>
             </button>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Nite Computer. All rights reserved.</p>
+    <footer class="footer">
+        <p class="footer-text">&copy; 2024 Nite Computer. All rights reserved.</p>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>

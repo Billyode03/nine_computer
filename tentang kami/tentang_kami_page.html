@@ -14,9 +14,11 @@
             display: flex;
             align-items: center;
             margin: 20px;
+            /* padding-bottom: 20px; */
         }
 
         .hero2 {
+            padding: 60px;
             align-items: center;
             margin: 20px;
         }
@@ -26,19 +28,21 @@
             margin-right: 50px;
         }
 
-        .hero-text-one{
-            margin-left: 150px;
-            margin-top: 10px;
+        .hero-text {
+            text-align: center;
+            justify-content: center;
         }
 
-       
-
+        .hero-heading {
+            text-align: center;
+            padding-bottom: 20px;
+        }
     </style>
 </head>
 
 <body>
-      <!-- Bar Home -->
-      <nav class="navbar navbar-expand-lg navbar-light ">
+    <!-- Bar Home -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid">
             <h1 class="navbar-brand">
                 <a class="h1_anchor" href="../landing_page/landing_page.html">
@@ -89,20 +93,27 @@
 
 
 
+
     <div class="hero">
-        <img src="../assets/intro.png" alt="">
+        <img src="../assets/about_us.jpg" alt="">
         <div class="hero2">
-            <h1> Selamat Datang di Nine Computer </h1>
-            <p class="hero-text-one"> Kualitas terjamin, Harga gak nyiksa dompet</p>
-            <button class="btn-landing">
-                <a class="text-btn-landing" href="../beranda/beranda_page.html">Mulai</a>
-            </button>
+            <h1 class="hero-heading"> Tentang Kami </h1>
+            <p class="hero-text">
+                Nine Computer, tempat terbaik untuk kebutuhan komputer dan perlengkapannya. Didirikan
+                pada tahun 2024, kami menawarkan berbagai produk berkualitas dari merek ternama dengan harga kompetitif.
+                Dengan sistem manajemen inventaris yang canggih, kami memastikan stok barang selalu tersedia.
+                Tim profesional kami siap membantu Anda dengan pelayanan terbaik, dan proses penjualan yang cepat dan
+                akurat. Kami juga menyediakan laporan penjualan harian untuk memastikan transparansi dan pengambilan
+                keputusan yang tepat.
+                Kepuasan pelanggan adalah prioritas kami, dan kami menyediakan layanan purna jual yang memadai, termasuk
+                garansi dan dukungan teknis. Terima kasih telah mempercayakan kebutuhan Komputer Anda kepada kami!
+            </p>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Nite Computer. All rights reserved.</p>
+    <footer class="footer">
+        <p class="footer-text">&copy; 2024 Nite Computer. All rights reserved.</p>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
